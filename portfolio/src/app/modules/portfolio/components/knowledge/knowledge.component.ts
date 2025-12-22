@@ -13,6 +13,7 @@ import { IKnowledge } from '../../interface/Iknowledge.interface';
 export class KnowledgeComponent {
   public arrayKnowledge = signal<IKnowledge[]>([
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg', alt: 'C#' },
+    { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg', alt: '.net' },
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg', alt: 'Angular' },
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg', alt: 'Sql' },
     { src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg', alt: 'GitLab' },
